@@ -2,11 +2,11 @@ import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Userinterface {
+public class Ui {
     private final Scanner scan;
     private final Controller controller;
 
-    public Userinterface() {
+    public Ui() {
         scan = new Scanner(System.in);
         controller = new Controller();
     }
